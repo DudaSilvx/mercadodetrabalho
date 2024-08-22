@@ -1,9 +1,22 @@
 body{ /*estiliza o body do html*/
-    color: rgb(81, 48, 134);
-    background-color: rgb(204, 203, 203);
+    color: #000000;
+    /*background-image:  linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));*/
+    background-image: url("https://s2.glbimg.com/yoXAp5Vk1xo5fAubd1KfdlS6Ghw=/s.glbimg.com/jo/g1/f/original/2016/02/17/divulgacao_-_cama_box_pet_1_-_recortada.jpg");
+    background-size: cover; /*cobrir todo o site*/
+    background-repeat: no-repeat; /*não repete a foto*/
+    background-position: fixe;
 }
 
 p{ /*estiliza o parágrafo do html*/
-    color: #513086;
-    background-color: rgb(64, 194, 118);
+    color: #ffffff;
+    background-color: rgb(51, 22, 22);
+    font-size: 50px;
+    text-align: center; 
+}
+.Titulo{ /*class*/
+
+}
+
+#seletor{ /*id*/
+
 }
