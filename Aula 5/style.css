@@ -1,0 +1,25 @@
+* {
+    margin: 0 auto; /*margem*/
+    padding: 0; /*preenchimento*/
+}
+
+.menu-horizontal{
+    background-color: rgb(214, 69, 149); /*cor da barra contornando a lista*/
+}
+
+.menu-horizontal ul{ /*classe é o ponto*/ /*modificação do menu horizontal da lista não ordenada*/
+    max-width: 800px; /*comprimento maximo*/
+}
+
+.menu-horizontal ul li{
+    display: inline; /*em linha*/
+    /*border-style: solid; /*estilo da borda*/
+    /*border-color: rgb(34, 163, 142)*/
+}
+
+.menu-horizontal ul li a{ 
+    color: #FFF; /*texto*/
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none; /*retira o padrão hiperlink*/
+}
